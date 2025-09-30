@@ -4,6 +4,7 @@ FROM node:20-alpine AS frontend-builder
 # Clone Niamoto and build frontend
 WORKDIR /build
 RUN apk add --no-cache git
+ARG CACHEBUST=1
 RUN git clone --depth 1 --branch feat/pipeline-editor-unified https://github.com/niamoto/niamoto.git .
 
 # Build React frontend
@@ -30,6 +31,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # Clone Niamoto repository
+ARG CACHEBUST=1
 RUN git clone --depth 1 --branch feat/pipeline-editor-unified https://github.com/niamoto/niamoto.git /tmp/niamoto
 
 # Copy built frontend from builder stage
