@@ -1,4 +1,17 @@
-# Dockerfile pour déployer une instance Niamoto existante
+# Multi-stage build pour Niamoto avec frontend
+FROM node:20-alpine AS frontend-builder
+
+# Clone Niamoto and build frontend
+WORKDIR /build
+RUN apk add --no-cache git
+RUN git clone --depth 1 --branch feat/pipeline-editor-unified https://github.com/niamoto/niamoto.git .
+
+# Build React frontend
+WORKDIR /build/src/niamoto/gui/ui
+RUN npm ci
+RUN npm run build
+
+# Python runtime stage
 FROM python:3.11-slim
 
 # Install system dependencies
@@ -15,8 +28,14 @@ RUN apt-get update && apt-get install -y \
 # Set up working directory
 WORKDIR /app
 
-# Install Niamoto from GitHub - branche feat/pipeline-editor-unified
-RUN pip install --no-cache-dir git+https://github.com/niamoto/niamoto.git@feat/pipeline-editor-unified
+# Clone Niamoto repository
+RUN git clone --depth 1 --branch feat/pipeline-editor-unified https://github.com/niamoto/niamoto.git /tmp/niamoto
+
+# Copy built frontend from builder stage
+COPY --from=frontend-builder /build/src/niamoto/gui/ui/dist /tmp/niamoto/src/niamoto/gui/ui/dist
+
+# Install Niamoto from local clone (with built frontend)
+RUN pip install --no-cache-dir /tmp/niamoto && rm -rf /tmp/niamoto
 
 # Copy instance data
 COPY config/ /data/config/
