@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Occurrence",
+    "language": "fr",
+    "license": "CC-BY-4.0",
+    "rightsHolder": "Niamoto - Nouvelle-Calédonie",
+    "datasetName": "Niamoto Export - Nouvelle-Calédonie Flore",
+    "basisOfRecord": "HumanObservation",
+    "occurrenceID": "niaocc_78150",
+    "individualCount": "1",
+    "occurrenceStatus": "present",
+    "eventID": "niaevt_78150",
+    "country": "New Caledonia",
+    "countryCode": "NC",
+    "minimumElevationInMeters": 243.0,
+    "maximumElevationInMeters": 243.0,
+    "decimalLatitude": -21.099902240774494,
+    "decimalLongitude": 165.09209631670925,
+    "geodeticDatum": "WGS84",
+    "identificationID": "niaid_unknown_0",
+    "taxonID": 1626,
+    "scientificName": "Erythrina variegata var. {fastigiata} (Guillaumin)",
+    "kingdom": "Plantae",
+    "family": "Fabaceae",
+    "genus": "Erythrina",
+    "specificEpithet": "variegata",
+    "infraspecificEpithet": "{fastigiata}",
+    "taxonRank": "infra",
+    "scientificNameAuthorship": "Erythrina variegata var. {fastigiata} (Guillaumin)",
+    "habitat": "Holdridge life zone: Zone 2.0; Annual rainfall: 1270.0mm; Substrate: non-ultramafic; Habitat: non-forest"
+  }
+]

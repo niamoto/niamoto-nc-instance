@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>{% block title %}Niamoto{% endblock %}</title>
+{% block extra_head %}
+    {% endblock %}
+    <link rel="stylesheet" href="{{ '/assets/css/vendor/tailwind/tailwind.min.css' | relative_url(depth|default(0)) }}">
+    <link rel="stylesheet" href="{{ '/assets/css/font-awesome/6.6.0_all.min.css' | relative_url(depth|default(0)) }}">
+    <!-- Base CSS with custom styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/niamoto.css' | relative_url(depth|default(0)) }}">
+    <link rel="stylesheet" href="{{ '/assets/css/niamoto_hierarchical_nav.css' | relative_url(depth|default(0)) }}">
+
+    {% set css_dependencies = [] %}
+    {% set js_dependencies = [] %}
+    {% if dependencies %}
+        {% for dep in dependencies %}
+            {% if dep.endswith('.css') %}
+                {% set _ = css_dependencies.append(dep) %}
+            {% elif dep.endswith('.js') %}
+                {% set _ = js_dependencies.append(dep) %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+    
+    {% for css_file in css_dependencies %}
+        {% if css_file.startswith('http://') or css_file.startswith('https://') or css_file.startswith('//') %}
+            <link rel="stylesheet" href="{{ css_file }}">
+        {% else %}
+            <link rel="stylesheet" href="{{ css_file | relative_url(depth|default(0)) }}">
+        {% endif %}
+    {% endfor %}
+    
+    {% block styles %}{% endblock %}
+
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+        .loader-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .button-container {
+            transition: all 0.3s ease;
+        }
+        .button-container.fixed {
+            position: fixed;
+            top: 63px; /* Adjust this value to match the height of your navigation menu */
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background-color: white;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    {% include '_nav.html' %}
+    <div class="flex flex-col lg:flex-row">
+        {% block sidebar %}
+        {% endblock %}
+        <div class="w-full">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+    {% include '_footer.html' %}
+    {% for js_file in js_dependencies %}
+        {% if js_file.startswith('http://') or js_file.startswith('https://') or js_file.startswith('//') %}
+            <script src="{{ js_file }}"></script>
+        {% else %}
+            <script src="{{ js_file | relative_url(depth|default(0)) }}"></script>
+        {% endif %}
+    {% endfor %}
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const buttonContainer = document.getElementById('buttonContainer');
+
+            // Only proceed if the button container exists
+            if (buttonContainer) {
+                const buttonContainerOffset = buttonContainer.offsetTop;
+                const navHeight = 60; // Adjust this value to match your navigation height
+
+                window.onscroll = () => {
+                    if (window.pageYOffset > buttonContainerOffset - navHeight) {
+                        buttonContainer.classList.add('fixed');
+                    } else {
+                        buttonContainer.classList.remove('fixed');
+                    }
+                };
+
+                // Initial check in case the page is loaded scrolled
+                window.onscroll();
+            }
+        });
+    </script>
+    {% block extra_scripts %}
+    {% endblock %}
+</body>
+</html>

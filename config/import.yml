@@ -1,0 +1,99 @@
+# Taxonomie extraite des occurrences
+taxonomy:
+  path: imports/occurrences.csv  # Chemin vers le fichier d'occurrences
+  hierarchy:
+    levels:
+    - name: family
+      column: family
+    - name: genus
+      column: genus
+    - name: species
+      column: species
+    - name: infra
+      column: infra
+    taxon_id_column: id_taxonref  # Colonne contenant l'ID du taxon
+  api_enrichment:
+    enabled: false
+    plugin: "api_taxonomy_enricher"
+    api_url: "https://api.endemia.nc/v1/taxons"
+    # Authentification par clé API dans l'en-tête
+    auth_method: "api_key"
+    auth_params:
+      key: "1e106508-9a86-4242-9012-d6cafdea3374"  # Votre clé API
+      location: "header"  # Dans l'en-tête HTTP
+      name: "apiKey"      # Nom exact de l'en-tête
+    query_params:
+      section: "flore"
+      maxitem: "1"
+      excludes: "meta,links"  # Exclure les métadonnées inutiles
+      includes: "images"  # Inclure les images
+      
+    query_field: "full_name"  # Field to use for querying the API
+    # Limites et optimisations
+    rate_limit: 2.0
+    cache_results: true
+    # Mapping des champs prioritaires mentionnés
+    response_mapping:
+      # Champs prioritaires
+      id_endemia: "id"
+      id_florical: "id_florical"
+      endemia_url: "endemia_url"
+      endemic: "endemique"
+      protected: "protected"
+      protected_provnord: "protected_provnord"
+      protected_provsud: "protected_provsud"
+      redlist: "redlist"
+      redlist_cat: "categorie_uicn"
+      
+      # Champs d'image
+      image_small_thumb: "image.small_thumb"
+      image_big_thumb: "image.big_thumb"
+      image_auteur: "image.auteur"
+
+      images: "images"  # Champ pour les images multiples
+
+plots:
+  type: csv
+  path: imports/plots.csv
+  identifier: id_plot  # Champ de l'identifiant du plot dans le csv
+  locality_field: plot  # Champ du nom de la localité qui renseignera le champ locality dans plot_ref 
+  location_field: geo_pt  # Champ de la géométrie de la localité
+  link_field: locality  # Champ à utiliser dans plot_ref pour le lien
+  occurrence_link_field: plot_name  # Champ à utiliser dans occurrences pour le lien
+
+
+occurrences:
+  type: csv
+  path: imports/occurrences.csv
+  identifier: id_taxonref
+  location_field: geo_pt
+
+# Multiple shapes (administrative areas, substrates, etc.)
+shapes:
+  - type: "Substrats"
+    path: "imports/shapes/substrate.gpkg"
+    name_field: "label"
+
+# Layers: vectors, rasters...
+layers:
+  - name: "forest_cover"
+    type: vector
+    format: shapefile
+    path: "imports/layers/amap_carto_3k_20240715.gpkg"
+    description: "Forest cover layer"
+
+  - name: "elevation"
+    type: raster
+    path: "imports/layers/mnt100_epsg3163.tif"
+    description: "Digital elevation model"
+
+  - name: "rainfall"
+    type: raster
+    path: "imports/layers/rainfall_epsg3163.tif"
+    description: "Annual rainfall distribution"
+
+  - name: "holdridge"
+    type: raster
+    path: "imports/layers/amap_raster_holdridge_nc.tif"
+    description: "Holdridge"
+

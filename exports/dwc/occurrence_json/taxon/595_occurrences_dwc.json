@@ -1,0 +1,33 @@
+[
+  {
+    "type": "Occurrence",
+    "language": "fr",
+    "license": "CC-BY-4.0",
+    "rightsHolder": "Niamoto - Nouvelle-Calédonie",
+    "datasetName": "Niamoto Export - Nouvelle-Calédonie Flore",
+    "basisOfRecord": "HumanObservation",
+    "occurrenceID": "niaocc_34057",
+    "individualCount": "1",
+    "occurrenceStatus": "present",
+    "eventID": "niaevt_34057",
+    "month": 1,
+    "country": "New Caledonia",
+    "countryCode": "NC",
+    "minimumElevationInMeters": 107.0,
+    "maximumElevationInMeters": 107.0,
+    "decimalLatitude": -21.35,
+    "decimalLongitude": 165.75,
+    "geodeticDatum": "WGS84",
+    "identificationID": "niaid_unknown_0",
+    "taxonID": 595,
+    "scientificName": "Chambeyronia houailouensis Hodel & Barrett",
+    "kingdom": "Plantae",
+    "family": "Arecaceae",
+    "genus": "Chambeyronia",
+    "specificEpithet": "houailouensis",
+    "taxonRank": "species",
+    "scientificNameAuthorship": "Chambeyronia houailouensis Hodel & Barrett",
+    "dynamicProperties": "{\"diameterAtBreastHeight\": {\"value\": 25.0, \"unit\": \"cm\"}, \"height\": {\"value\": 20.0, \"unit\": \"m\"}}",
+    "habitat": "Holdridge life zone: Zone 2.0; Annual rainfall: 1780.0mm; Substrate: ultramafic; Habitat: non-forest"
+  }
+]

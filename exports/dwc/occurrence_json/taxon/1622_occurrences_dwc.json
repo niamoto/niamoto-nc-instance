@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Occurrence",
+    "language": "fr",
+    "license": "CC-BY-4.0",
+    "rightsHolder": "Niamoto - Nouvelle-Calédonie",
+    "datasetName": "Niamoto Export - Nouvelle-Calédonie Flore",
+    "basisOfRecord": "HumanObservation",
+    "occurrenceID": "niaocc_74105",
+    "individualCount": "1",
+    "occurrenceStatus": "present",
+    "eventID": "niaevt_74105",
+    "country": "New Caledonia",
+    "countryCode": "NC",
+    "minimumElevationInMeters": 153.0,
+    "maximumElevationInMeters": 153.0,
+    "decimalLatitude": -22.19872,
+    "decimalLongitude": 166.53614,
+    "geodeticDatum": "WGS84",
+    "identificationID": "niaid_unknown_0",
+    "taxonID": 1622,
+    "scientificName": "Elaeocarpus comptonii var. thyensis (Guillaumin) Tirel",
+    "kingdom": "Plantae",
+    "family": "Elaeocarpaceae",
+    "genus": "Elaeocarpus",
+    "specificEpithet": "comptonii",
+    "infraspecificEpithet": "thyensis",
+    "taxonRank": "infra",
+    "scientificNameAuthorship": "Elaeocarpus comptonii var. thyensis (Guillaumin) Tirel",
+    "habitat": "Holdridge life zone: Zone 2.0; Annual rainfall: 1520.0mm; Substrate: non-ultramafic; Habitat: non-forest"
+  }
+]

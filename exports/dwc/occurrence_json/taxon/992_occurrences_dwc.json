@@ -1,0 +1,33 @@
+[
+  {
+    "type": "Occurrence",
+    "language": "fr",
+    "license": "CC-BY-4.0",
+    "rightsHolder": "Niamoto - Nouvelle-Calédonie",
+    "datasetName": "Niamoto Export - Nouvelle-Calédonie Flore",
+    "basisOfRecord": "HumanObservation",
+    "occurrenceID": "niaocc_111065",
+    "individualCount": "1",
+    "occurrenceStatus": "present",
+    "eventID": "niaevt_111065",
+    "month": 2,
+    "country": "New Caledonia",
+    "countryCode": "NC",
+    "minimumElevationInMeters": 275.0,
+    "maximumElevationInMeters": 275.0,
+    "decimalLatitude": -21.3282626,
+    "decimalLongitude": 165.458459,
+    "geodeticDatum": "WGS84",
+    "identificationID": "niaid_unknown_0",
+    "taxonID": 992,
+    "scientificName": "Homalium sleumerianum Lescot",
+    "kingdom": "Plantae",
+    "family": "Salicaceae",
+    "genus": "Homalium",
+    "specificEpithet": "sleumerianum",
+    "taxonRank": "species",
+    "scientificNameAuthorship": "Homalium sleumerianum Lescot",
+    "reproductiveCondition": "flowering",
+    "habitat": "Holdridge life zone: Zone 2.0; Annual rainfall: 1880.0mm; Substrate: non-ultramafic; Habitat: non-forest"
+  }
+]

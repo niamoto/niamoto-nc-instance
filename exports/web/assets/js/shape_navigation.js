@@ -1,0 +1,1 @@
+const shapeNavigationData = [{"name":"Substrats","id":1,"lft":1,"level":0,"parent_id":null,"shape_type":"type","rght":4},{"name":"Ultramafique","id":2,"lft":2,"level":1,"parent_id":1,"shape_type":"shape","rght":3}];

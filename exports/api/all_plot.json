@@ -1,0 +1,30 @@
+{
+    "plot": [
+        {
+            "id": 6,
+            "name": null,
+            "endpoint": "/api/plot/unknown.json"
+        },
+        {
+            "id": 9,
+            "name": null,
+            "endpoint": "/api/plot/unknown.json"
+        },
+        {
+            "id": 10,
+            "name": null,
+            "endpoint": "/api/plot/unknown.json"
+        },
+        {
+            "id": 11,
+            "name": null,
+            "endpoint": "/api/plot/unknown.json"
+        },
+        {
+            "id": 20,
+            "name": null,
+            "endpoint": "/api/plot/unknown.json"
+        }
+    ],
+    "total": 5
+}

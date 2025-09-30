@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Occurrence",
+    "language": "fr",
+    "license": "CC-BY-4.0",
+    "rightsHolder": "Niamoto - Nouvelle-Calédonie",
+    "datasetName": "Niamoto Export - Nouvelle-Calédonie Flore",
+    "basisOfRecord": "HumanObservation",
+    "occurrenceID": "niaocc_139716",
+    "individualCount": "1",
+    "occurrenceStatus": "present",
+    "eventID": "niaevt_139716",
+    "country": "New Caledonia",
+    "countryCode": "NC",
+    "minimumElevationInMeters": 558.0,
+    "maximumElevationInMeters": 558.0,
+    "decimalLatitude": -21.95330238342285,
+    "decimalLongitude": 166.56358337402344,
+    "geodeticDatum": "WGS84",
+    "identificationID": "niaid_unknown_0",
+    "taxonID": 1647,
+    "scientificName": "Osmanthus austrocaledonicus var. crassifolius (Guillaumin) P.S.Green",
+    "kingdom": "Plantae",
+    "family": "Oleaceae",
+    "genus": "Osmanthus",
+    "specificEpithet": "austrocaledonicus",
+    "infraspecificEpithet": "crassifolius",
+    "taxonRank": "infra",
+    "scientificNameAuthorship": "Osmanthus austrocaledonicus var. crassifolius (Guillaumin) P.S.Green",
+    "habitat": "Holdridge life zone: Zone 3.0; Annual rainfall: 3880.0mm; Substrate: ultramafic; Habitat: non-forest"
+  }
+]

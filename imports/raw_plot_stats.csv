@@ -1,0 +1,661 @@
+"id","class_object","class_name","class_value","class_index","plot_id"
+1,top10_family,Sapindaceae,206.0,1,2
+2,top10_family,Malvaceae,188.0,2,2
+3,top10_family,Lauraceae,139.0,3,2
+4,top10_family,Arecaceae,120.0,4,2
+5,top10_family,Myrtaceae,107.0,5,2
+6,top10_family,Meliaceae,94.0,6,2
+7,top10_family,Chloranthaceae,83.0,7,2
+8,top10_family,Elaeocarpaceae,70.0,8,2
+9,top10_family,Primulaceae,64.0,9,2
+10,top10_family,Rhizophoraceae,64.0,10,2
+11,top10_species,Acropogon aoupiniensis,188.0,1,2
+12,top10_species,Burretiokentia vieillardii,120.0,2,2
+13,top10_species,Cupaniopsis phalacrocarpa,114.0,3,2
+14,top10_species,Ascarina solmsiana,83.0,4,2
+15,top10_species,Sloanea magnifolia,68.0,5,2
+16,top10_species,Crossostylis multiflora,64.0,6,2
+17,top10_species,Didymocheton kouiriensis,64.0,7,2
+18,top10_species,Cryptocarya oubatchensis,61.0,8,2
+19,top10_species,Guioa microsepala,54.0,9,2
+20,top10_species,Syzygium neolaurifolium,52.0,10,2
+21,top10_family,Arecaceae,203.0,1,3
+22,top10_family,Sapindaceae,137.0,2,3
+23,top10_family,Rubiaceae,83.0,3,3
+24,top10_family,Calophyllaceae,82.0,4,3
+25,top10_family,Sapotaceae,70.0,5,3
+26,top10_family,Clusiaceae,70.0,6,3
+27,top10_family,Meliaceae,63.0,7,3
+28,top10_family,Lauraceae,56.0,8,3
+29,top10_family,Nothofagaceae,55.0,9,3
+30,top10_family,Myrtaceae,52.0,10,3
+31,top10_species,Calophyllum caledonicum,82.0,1,3
+32,top10_species,Cyphokentia macrostachya,75.0,2,3
+33,top10_species,Burretiokentia vieillardii,66.0,3,3
+34,top10_species,Chambeyronia macrocarpa,62.0,4,3
+35,top10_species,Nothofagus aequilateralis,55.0,5,3
+36,top10_species,Storthocalyx corymbosus,54.0,6,3
+37,top10_species,Cupaniopsis macrocarpa,44.0,7,3
+38,top10_species,Plerandra gabriellae,43.0,8,3
+39,top10_species,Didymocheton rufescens,38.0,9,3
+40,top10_species,Hedycarya cupulata,33.0,10,3
+41,top10_family,Arecaceae,476.0,1,4
+42,top10_family,Moraceae,109.0,2,4
+43,top10_family,Araliaceae,99.0,3,4
+44,top10_family,Metteniusaceae,92.0,4,4
+45,top10_family,Meliaceae,68.0,5,4
+46,top10_family,Lauraceae,43.0,6,4
+47,top10_family,Dicksoniaceae,40.0,7,4
+48,top10_family,Loganiaceae,27.0,8,4
+49,top10_family,Sapindaceae,22.0,9,4
+50,top10_family,Clusiaceae,22.0,10,4
+51,top10_species,Burretiokentia vieillardii,476.0,1,4
+52,top10_species,Apodytes clusiifolia,92.0,2,4
+53,top10_species,Didymocheton kouiriensis,54.0,3,4
+54,top10_species,Schefflera vieillardii,42.0,4,4
+55,top10_species,Dicksonia thyrsopteroides,40.0,5,4
+56,top10_species,Sparattosyce dioica,39.0,6,4
+57,top10_species,Neuburgia novocaledonica,26.0,7,4
+58,top10_species,Plerandra gabriellae,25.0,8,4
+59,top10_species,Cryptocarya oubatchensis,23.0,9,4
+60,top10_species,Ficus racemigera,22.0,10,4
+61,top10_family,Arecaceae,161.0,1,5
+62,top10_family,Meliaceae,131.0,2,5
+63,top10_family,Cyatheaceae,106.0,3,5
+64,top10_family,Sapindaceae,93.0,4,5
+65,top10_family,Sapotaceae,75.0,5,5
+66,top10_family,Calophyllaceae,74.0,6,5
+67,top10_family,Metteniusaceae,70.0,7,5
+68,top10_family,Araliaceae,62.0,8,5
+69,top10_family,Lauraceae,50.0,9,5
+70,top10_family,Moraceae,46.0,10,5
+71,top10_species,Burretiokentia vieillardii,161.0,1,5
+72,top10_species,Calophyllum caledonicum,74.0,2,5
+73,top10_species,Apodytes clusiifolia,70.0,3,5
+74,top10_species,Alsophila stelligera,62.0,4,5
+75,top10_species,Pycnandra comptonii,60.0,5,5
+76,top10_species,Didymocheton kouiriensis,51.0,6,5
+77,top10_species,Didymocheton rufescens,34.0,7,5
+78,top10_species,Cupaniopsis petiolulata,32.0,8,5
+79,top10_species,Plerandra gabriellae,30.0,9,5
+80,top10_species,Sphaeropteris novae-caledoniae,27.0,10,5
+81,top10_family,Ebenaceae,126.0,1,6
+82,top10_family,Meliaceae,114.0,2,6
+83,top10_family,Anacardiaceae,56.0,3,6
+84,top10_family,Annonaceae,46.0,4,6
+85,top10_family,Cannabaceae,39.0,5,6
+86,top10_family,Hernandiaceae,29.0,6,6
+87,top10_family,Apocynaceae,18.0,7,6
+88,top10_family,Dilleniaceae,15.0,8,6
+89,top10_family,Euphorbiaceae,11.0,9,6
+90,top10_family,Phyllanthaceae,9.0,10,6
+91,top10_species,Diospyros fasciculosa,126.0,1,6
+92,top10_species,Aglaia elaeagnoidea,102.0,2,6
+93,top10_species,Huberantha nitidissima,46.0,3,6
+94,top10_species,Celtis balansae,39.0,4,6
+95,top10_species,Semecarpus atra,39.0,5,6
+96,top10_species,Gyrocarpus americanus,29.0,6,6
+97,top10_species,Tabernaemontana cerifera,18.0,7,6
+98,top10_species,Pleiogynium timoriense,16.0,8,6
+517,dbh,"100",4.0,7,9
+99,top10_species,Tetracera billardierei,15.0,9,6
+100,top10_species,Olea paniculata,9.0,10,6
+101,top10_family,Clusiaceae,446.0,1,7
+102,top10_family,Calophyllaceae,224.0,2,7
+103,top10_family,Sapindaceae,108.0,3,7
+104,top10_family,Myrtaceae,91.0,4,7
+105,top10_family,Meliaceae,68.0,5,7
+106,top10_family,Arecaceae,52.0,6,7
+107,top10_family,Ebenaceae,51.0,7,7
+108,top10_family,Monimiaceae,48.0,8,7
+109,top10_family,Dicksoniaceae,46.0,9,7
+110,top10_family,Metteniusaceae,45.0,10,7
+111,top10_species,Garcinia vieillardii,381.0,1,7
+112,top10_species,Calophyllum caledonicum,224.0,2,7
+113,top10_species,Cupaniopsis petiolulata,67.0,3,7
+114,top10_species,Diospyros samoensis,48.0,4,7
+115,top10_species,Dicksonia thyrsopteroides,46.0,5,7
+116,top10_species,Apodytes clusiifolia,45.0,6,7
+117,top10_species,Didymocheton roseus,39.0,7,7
+118,top10_species,Chambeyronia magnifica,35.0,8,7
+119,top10_species,Garcinia virgata,31.0,9,7
+120,top10_species,Hedycarya cupulata,27.0,10,7
+121,top10_family,Apocynaceae,136.0,1,8
+122,top10_family,Meliaceae,131.0,2,8
+123,top10_family,Myrtaceae,85.0,3,8
+124,top10_family,Rhizophoraceae,84.0,4,8
+125,top10_family,Sapotaceae,74.0,5,8
+126,top10_family,Moraceae,72.0,6,8
+127,top10_family,Sapindaceae,59.0,7,8
+128,top10_family,Cunoniaceae,55.0,8,8
+129,top10_family,Monimiaceae,51.0,9,8
+130,top10_family,Elaeocarpaceae,44.0,10,8
+131,top10_species,Tabernaemontana cerifera,117.0,1,8
+132,top10_species,Crossostylis grandiflora,84.0,2,8
+133,top10_species,Pycnandra balansae,68.0,3,8
+134,top10_species,Didymocheton macranthus,66.0,4,8
+135,top10_species,Syzygium lifuanum,54.0,5,8
+136,top10_species,Geissois racemosa,52.0,6,8
+137,top10_species,Didymocheton rufescens,42.0,7,8
+138,top10_species,Sparattosyce balansae,40.0,8,8
+139,top10_species,Hedycarya cupulata,35.0,9,8
+140,top10_species,Barringtonia neocaledonica,29.0,10,8
+141,top10_family,Sapindaceae,302.0,1,9
+142,top10_family,Calophyllaceae,80.0,2,9
+143,top10_family,Ebenaceae,67.0,3,9
+144,top10_family,Clusiaceae,64.0,4,9
+145,top10_family,Proteaceae,48.0,5,9
+146,top10_family,Annonaceae,43.0,6,9
+147,top10_family,Myrtaceae,39.0,7,9
+148,top10_family,Meliaceae,38.0,8,9
+149,top10_family,Oleaceae,37.0,9,9
+150,top10_family,Apocynaceae,36.0,10,9
+151,top10_species,Calophyllum caledonicum,80.0,1,9
+152,top10_species,Cupaniopsis macrocarpa,74.0,2,9
+153,top10_species,Diospyros samoensis,43.0,3,9
+154,top10_species,Xylopia vieillardii,43.0,4,9
+155,top10_species,Cupaniopsis petiolulata,42.0,5,9
+156,top10_species,Chionanthus pedunculatus,37.0,6,9
+157,top10_species,Cupaniopsis sylvatica,36.0,7,9
+158,top10_species,Garcinia puat,34.0,8,9
+159,top10_species,Tabernaemontana cerifera,30.0,9,9
+160,top10_species,Myrsine citrifolia,29.0,10,9
+161,top10_family,Sapindaceae,111.0,1,10
+162,top10_family,Primulaceae,97.0,2,10
+163,top10_family,Ebenaceae,74.0,3,10
+164,top10_family,Proteaceae,60.0,4,10
+165,top10_family,Moraceae,54.0,5,10
+166,top10_family,Myrtaceae,51.0,6,10
+167,top10_family,Calophyllaceae,49.0,7,10
+168,top10_family,Clusiaceae,43.0,8,10
+169,top10_family,Lauraceae,37.0,9,10
+170,top10_family,Annonaceae,34.0,10,10
+171,top10_species,Myrsine citrifolia,85.0,1,10
+172,top10_species,Virotia leptophylla,44.0,2,10
+173,top10_species,Cupaniopsis petiolulata,44.0,3,10
+174,top10_species,Garcinia densiflora,37.0,4,10
+175,top10_species,Calophyllum caledonicum,35.0,5,10
+176,top10_species,Xylopia vieillardii,32.0,6,10
+177,top10_species,Diospyros samoensis,32.0,7,10
+178,top10_species,Chionanthus brachystachys,30.0,8,10
+179,top10_species,Sparattosyce balansae,28.0,9,10
+180,top10_species,Syzygium macranthum,28.0,10,10
+181,top10_family,Rutaceae,478.0,1,11
+182,top10_family,Sapindaceae,156.0,2,11
+183,top10_family,Salicaceae,135.0,3,11
+184,top10_family,Primulaceae,100.0,4,11
+185,top10_family,Ebenaceae,86.0,5,11
+186,top10_family,Clusiaceae,67.0,6,11
+187,top10_family,Anacardiaceae,45.0,7,11
+188,top10_family,Apocynaceae,27.0,8,11
+189,top10_family,Euphorbiaceae,26.0,9,11
+190,top10_family,Lauraceae,26.0,10,11
+191,top10_species,Geijera balansae,411.0,1,11
+192,top10_species,Xylosma vincentii,131.0,2,11
+193,top10_species,Diospyros fasciculosa,73.0,3,11
+194,top10_species,Garcinia densiflora,56.0,4,11
+195,top10_species,Lepidocupania arcuata,48.0,5,11
+196,top10_species,Sarcomelicope follicularis,38.0,6,11
+197,top10_species,Lepidocupania globosa,35.0,7,11
+198,top10_species,Tabernaemontana cerifera,27.0,8,11
+199,top10_species,Acronychia laevis,27.0,9,11
+200,top10_species,Semecarpus atra,26.0,10,11
+201,top10_family,Sapindaceae,150.0,1,12
+202,top10_family,Rutaceae,123.0,2,12
+203,top10_family,Apocynaceae,95.0,3,12
+204,top10_family,Ebenaceae,82.0,4,12
+205,top10_family,Clusiaceae,73.0,5,12
+206,top10_family,Proteaceae,53.0,6,12
+207,top10_family,Salicaceae,53.0,7,12
+208,top10_family,Primulaceae,52.0,8,12
+209,top10_family,Lauraceae,52.0,9,12
+210,top10_family,Euphorbiaceae,39.0,10,12
+211,top10_species,Sarcomelicope follicularis,106.0,1,12
+212,top10_species,Tabernaemontana cerifera,83.0,2,12
+213,top10_species,Diospyros fasciculosa,73.0,3,12
+214,top10_species,Xylosma vincentii,53.0,4,12
+215,top10_species,Myrsine citrifolia,52.0,5,12
+216,top10_species,Garcinia densiflora,51.0,6,12
+217,top10_species,Cupaniopsis sylvatica,44.0,7,12
+218,top10_species,Virotia leptophylla,44.0,8,12
+219,top10_species,Cryptocarya longifolia,35.0,9,12
+220,top10_species,Cupaniopsis petiolulata,35.0,10,12
+221,top10_family,Salicaceae,369.0,1,13
+222,top10_family,Oleaceae,86.0,2,13
+223,top10_family,Ebenaceae,48.0,3,13
+224,top10_family,Monimiaceae,42.0,4,13
+225,top10_family,Apocynaceae,42.0,5,13
+226,top10_family,Elaeocarpaceae,41.0,6,13
+227,top10_family,Rutaceae,38.0,7,13
+228,top10_family,Meliaceae,33.0,8,13
+229,top10_family,Euphorbiaceae,31.0,9,13
+230,top10_family,Moraceae,22.0,10,13
+231,top10_species,Homalium deplanchei,369.0,1,13
+232,top10_species,Olea paniculata,86.0,2,13
+233,top10_species,Diospyros fasciculosa,48.0,3,13
+234,top10_species,Tabernaemontana cerifera,42.0,4,13
+235,top10_species,Elaeocarpus angustifolius,41.0,5,13
+236,top10_species,Hedycarya cupulata,41.0,6,13
+237,top10_species,Comptonella drupacea,24.0,7,13
+238,top10_species,Didymocheton roseus,22.0,8,13
+239,top10_species,Aleurites moluccana,14.0,9,13
+240,top10_species,Citronella macrocarpa,13.0,10,13
+241,top10_family,Myrtaceae,163.0,1,14
+242,top10_family,Sapotaceae,163.0,2,14
+243,top10_family,Moraceae,99.0,3,14
+244,top10_family,Sapindaceae,91.0,4,14
+245,top10_family,Bignoniaceae,89.0,5,14
+246,top10_family,Cunoniaceae,80.0,6,14
+247,top10_family,Arecaceae,71.0,7,14
+248,top10_family,Calophyllaceae,52.0,8,14
+249,top10_family,Lauraceae,45.0,9,14
+250,top10_family,Clusiaceae,41.0,10,14
+251,top10_species,Sparattosyce dioica,95.0,1,14
+252,top10_species,Deplanchea speciosa,89.0,2,14
+253,top10_species,Pleurocalyptus pancheri,84.0,3,14
+254,top10_species,Planchonella endlicheri,75.0,4,14
+255,top10_species,Storthocalyx chryseus,69.0,5,14
+256,top10_species,Cunonia balansae,59.0,6,14
+257,top10_species,Cyphophoenix fulcita,56.0,7,14
+258,top10_species,Calophyllum caledonicum,52.0,8,14
+259,top10_species,Pycnandra acuminata,39.0,9,14
+260,top10_species,Gastrolepis austrocaledonica,34.0,10,14
+261,top10_family,Arecaceae,221.0,1,15
+262,top10_family,Sapindaceae,183.0,2,15
+263,top10_family,Rutaceae,111.0,3,15
+264,top10_family,Meliaceae,95.0,4,15
+265,top10_family,Rhizophoraceae,72.0,5,15
+266,top10_family,Ebenaceae,67.0,6,15
+267,top10_family,Malvaceae,48.0,7,15
+268,top10_family,Annonaceae,46.0,8,15
+269,top10_family,Rubiaceae,42.0,9,15
+270,top10_family,Lauraceae,40.0,10,15
+271,top10_species,Burretiokentia vieillardii,221.0,1,15
+272,top10_species,Flindersia fournieri,96.0,2,15
+273,top10_species,Cupaniopsis macrocarpa,71.0,3,15
+274,top10_species,Crossostylis grandiflora,53.0,4,15
+275,top10_species,Acropogon macrocarpus,48.0,5,15
+276,top10_species,Diospyros samoensis,46.0,6,15
+277,top10_species,Xylopia vieillardii,46.0,7,15
+278,top10_species,Didymocheton rufescens,39.0,8,15
+279,top10_species,Cupaniopsis sylvatica,39.0,9,15
+280,top10_species,Didymocheton kouiriensis,39.0,10,15
+281,top10_family,Nothofagaceae,734.0,1,16
+282,top10_family,Myrtaceae,104.0,2,16
+283,top10_family,Myodocarpaceae,88.0,3,16
+284,top10_family,Araucariaceae,65.0,4,16
+285,top10_family,Metteniusaceae,48.0,5,16
+286,top10_family,Cunoniaceae,36.0,6,16
+287,top10_family,Atherospermataceae,14.0,7,16
+288,top10_family,Oleaceae,14.0,8,16
+289,top10_family,Balanopaceae,13.0,9,16
+290,top10_family,Clusiaceae,12.0,10,16
+291,top10_species,Nothofagus balansae,734.0,1,16
+292,top10_species,Myodocarpus gracilis,65.0,2,16
+293,top10_species,Araucaria montana,65.0,3,16
+294,top10_species,Apodytes clusiifolia,48.0,4,16
+295,top10_species,Syzygium frutescens,30.0,5,16
+296,top10_species,Xanthomyrtus kanalaensis,28.0,6,16
+297,top10_species,Cunonia montana,26.0,7,16
+298,top10_species,Syzygium brongniartii,25.0,8,16
+299,top10_species,Myodocarpus fraxinifolius,23.0,9,16
+300,top10_species,Notelaea cymosa,14.0,10,16
+301,top10_family,Arecaceae,495.0,1,17
+302,top10_family,Sapindaceae,179.0,2,17
+303,top10_family,Monimiaceae,91.0,3,17
+304,top10_family,Rhizophoraceae,90.0,4,17
+305,top10_family,Sapotaceae,77.0,5,17
+306,top10_family,Dicksoniaceae,75.0,6,17
+307,top10_family,Lauraceae,70.0,7,17
+308,top10_family,Meliaceae,65.0,8,17
+309,top10_family,Nyctaginaceae,43.0,9,17
+310,top10_family,Araliaceae,35.0,10,17
+311,top10_species,Basselinia glabrata,289.0,1,17
+312,top10_species,Cyphophoenix alba,107.0,2,17
+313,top10_species,Burretiokentia vieillardii,94.0,3,17
+314,top10_species,Crossostylis multiflora,90.0,4,17
+315,top10_species,Pycnandra comptonii,76.0,5,17
+316,top10_species,Dicksonia thyrsopteroides,75.0,6,17
+317,top10_species,Hedycarya cupulata,65.0,7,17
+318,top10_species,Didymocheton kouiriensis,61.0,8,17
+319,top10_species,Cupaniopsis petiolulata,59.0,9,17
+320,top10_species,Cupaniopsis macrocarpa,45.0,10,17
+321,top10_family,Nothofagaceae,579.0,1,18
+322,top10_family,Myrtaceae,80.0,2,18
+323,top10_family,Araucariaceae,72.0,3,18
+324,top10_family,Podocarpaceae,57.0,4,18
+325,top10_family,Apiaceae,42.0,5,18
+326,top10_family,Sapotaceae,37.0,6,18
+327,top10_family,Atherospermataceae,31.0,7,18
+328,top10_family,Ericaceae,18.0,8,18
+329,top10_family,Cunoniaceae,15.0,9,18
+330,top10_family,Balanopaceae,14.0,10,18
+331,top10_species,Nothofagus balansae,579.0,1,18
+332,top10_species,Araucaria montana,72.0,2,18
+333,top10_species,Retrophyllum comptonii,46.0,3,18
+334,top10_species,Apiopetalum glabratum,42.0,4,18
+335,top10_species,Pycnandra carinocostata,37.0,5,18
+336,top10_species,Nemuaron vieillardii,31.0,6,18
+337,top10_species,Syzygium multipetalum,24.0,7,18
+338,top10_species,Syzygium arboreum,20.0,8,18
+339,top10_species,Syzygium frutescens,18.0,9,18
+340,top10_species,Balanops sparsiflora,14.0,10,18
+341,top10_family,Sapindaceae,216.0,1,19
+342,top10_family,Atherospermataceae,192.0,2,19
+343,top10_family,Myrtaceae,173.0,3,19
+344,top10_family,Casuarinaceae,160.0,4,19
+345,top10_family,Sapotaceae,130.0,5,19
+346,top10_family,Myodocarpaceae,100.0,6,19
+347,top10_family,Cunoniaceae,46.0,7,19
+348,top10_family,Stemonuraceae,45.0,8,19
+349,top10_family,Araucariaceae,39.0,9,19
+350,top10_family,Ericaceae,38.0,10,19
+351,top10_species,Gongrodiscus bilocularis,195.0,1,19
+352,top10_species,Nemuaron vieillardii,192.0,2,19
+353,top10_species,Gymnostoma intermedium,160.0,3,19
+354,top10_species,Myodocarpus fraxinifolius,99.0,4,19
+355,top10_species,Pleioluma lasiantha,69.0,5,19
+356,top10_species,Metrosideros nitida,49.0,6,19
+357,top10_species,Xanthomyrtus kanalaensis,46.0,7,19
+358,top10_species,Gastrolepis austrocaledonica,45.0,8,19
+359,top10_species,Araucaria montana,39.0,9,19
+360,top10_species,Pancheria ternata,35.0,10,19
+361,top10_family,Cunoniaceae,408.0,1,20
+362,top10_family,Calophyllaceae,202.0,2,20
+363,top10_family,Apocynaceae,141.0,3,20
+364,top10_family,Myrtaceae,88.0,4,20
+365,top10_family,Elaeocarpaceae,50.0,5,20
+366,top10_family,Chrysobalanaceae,37.0,6,20
+367,top10_family,Clusiaceae,33.0,7,20
+368,top10_family,Ebenaceae,30.0,8,20
+369,top10_family,Malvaceae,16.0,9,20
+370,top10_family,Casuarinaceae,13.0,10,20
+371,top10_species,Geissois pruinosa,393.0,1,20
+372,top10_species,Calophyllum caledonicum,202.0,2,20
+373,top10_species,Cerberiopsis candelabra,82.0,3,20
+374,top10_species,Melaleuca quinquenervia,72.0,4,20
+375,top10_species,Elaeocarpus rotundifolius,50.0,5,20
+376,top10_species,Alstonia balansae,34.0,6,20
+377,top10_species,Diospyros macrocarpa,28.0,7,20
+378,top10_species,Garcinia neglecta,26.0,8,20
+379,top10_species,Tabernaemontana cerifera,25.0,9,20
+380,top10_species,Maxwellia lepidota,16.0,10,20
+381,top10_family,Sapindaceae,282.0,1,21
+382,top10_family,Myrtaceae,149.0,2,21
+383,top10_family,Meliaceae,83.0,3,21
+384,top10_family,Monimiaceae,77.0,4,21
+385,top10_family,Lauraceae,58.0,5,21
+386,top10_family,Hernandiaceae,54.0,6,21
+387,top10_family,Annonaceae,52.0,7,21
+388,top10_family,Euphorbiaceae,48.0,8,21
+389,top10_family,Arecaceae,47.0,9,21
+390,top10_family,Salicaceae,45.0,10,21
+391,top10_species,Syzygium {macrophylla_mackee26643},96.0,1,21
+392,top10_species,Cupaniopsis sylvatica,57.0,2,21
+393,top10_species,Hernandia cordigera,54.0,3,21
+394,top10_species,Hedycarya cupulata,52.0,4,21
+395,top10_species,Xylopia vieillardii,51.0,5,21
+396,top10_species,Cupaniopsis petiolulata,50.0,6,21
+397,top10_species,Guioa villosa,48.0,7,21
+398,top10_species,Cupaniopsis macrocarpa,47.0,8,21
+399,top10_species,Burretiokentia vieillardii,47.0,9,21
+400,top10_species,Homalium deplanchei,43.0,10,21
+401,top10_family,Annonaceae,114.0,1,22
+402,top10_family,Sapindaceae,102.0,2,22
+403,top10_family,Rhizophoraceae,87.0,3,22
+404,top10_family,Apocynaceae,74.0,4,22
+405,top10_family,Lauraceae,69.0,5,22
+406,top10_family,Myrtaceae,68.0,6,22
+407,top10_family,Meliaceae,51.0,7,22
+408,top10_family,Proteaceae,48.0,8,22
+409,top10_family,Cornaceae,44.0,9,22
+410,top10_family,Anacardiaceae,37.0,10,22
+411,top10_species,Xylopia vieillardii,110.0,1,22
+412,top10_species,Crossostylis grandiflora,87.0,2,22
+413,top10_species,Tabernaemontana cerifera,71.0,3,22
+414,top10_species,Cupaniopsis macrocarpa,59.0,4,22
+415,top10_species,Kermadecia rotundifolia,46.0,5,22
+416,top10_species,Alangium vitiense,44.0,6,22
+417,top10_species,Didymocheton rufescens,43.0,7,22
+418,top10_species,Syzygium macranthum,36.0,8,22
+419,top10_species,Cryptocarya odorata,35.0,9,22
+420,top10_species,Endiandra polyneura,30.0,10,22
+421,top10_family,Sapindaceae,316.0,1,613
+422,top10_family,Lauraceae,151.0,2,613
+423,top10_family,Balanopaceae,86.0,3,613
+424,top10_family,Myrtaceae,83.0,4,613
+425,top10_family,Araliaceae,69.0,5,613
+426,top10_family,Sapotaceae,65.0,6,613
+427,top10_family,Primulaceae,55.0,7,613
+428,top10_family,Podocarpaceae,55.0,8,613
+429,top10_family,Myodocarpaceae,52.0,9,613
+430,top10_family,Celastraceae,51.0,10,613
+431,top10_species,Gongrodiscus bilocularis,284.0,1,613
+432,top10_species,Cryptocarya velutinosa,106.0,2,613
+433,top10_species,Balanops sparsiflora,86.0,3,613
+434,top10_species,Pleioluma rubicunda,53.0,4,613
+435,top10_species,Retrophyllum comptonii,48.0,5,613
+436,top10_species,Nemuaron vieillardii,48.0,6,613
+437,top10_species,Salaciopsis sparsiflora,47.0,7,613
+438,top10_species,Myrsine asymmetrica,43.0,8,613
+439,top10_species,Burretiokentia vieillardii,34.0,9,613
+440,top10_species,Chionanthus brachystachys,29.0,10,613
+441,dbh,"10",0.0,1,2
+442,dbh,"20",1252.0,2,2
+443,dbh,"30",213.0,3,2
+444,dbh,"40",59.0,4,2
+445,dbh,"50",23.0,5,2
+446,dbh,"75",25.0,6,2
+447,dbh,"100",15.0,7,2
+448,dbh,"150",2.0,8,2
+449,dbh,"200",0.0,9,2
+450,dbh,"500",0.0,10,2
+451,dbh,"10",0.0,1,3
+452,dbh,"20",1067.0,2,3
+453,dbh,"30",203.0,3,3
+454,dbh,"40",69.0,4,3
+455,dbh,"50",37.0,5,3
+456,dbh,"75",10.0,6,3
+457,dbh,"100",3.0,7,3
+458,dbh,"150",6.0,8,3
+459,dbh,"200",0.0,9,3
+460,dbh,"500",0.0,10,3
+461,dbh,"10",0.0,1,4
+462,dbh,"20",879.0,2,4
+463,dbh,"30",145.0,3,4
+464,dbh,"40",51.0,4,4
+465,dbh,"50",47.0,5,4
+466,dbh,"75",66.0,6,4
+467,dbh,"100",10.0,7,4
+468,dbh,"150",7.0,8,4
+469,dbh,"200",3.0,9,4
+470,dbh,"500",1.0,10,4
+471,dbh,"10",0.0,1,5
+472,dbh,"20",724.0,2,5
+473,dbh,"30",202.0,3,5
+474,dbh,"40",130.0,4,5
+475,dbh,"50",71.0,5,5
+476,dbh,"75",62.0,6,5
+477,dbh,"100",6.0,7,5
+478,dbh,"150",2.0,8,5
+479,dbh,"200",0.0,9,5
+480,dbh,"500",0.0,10,5
+481,dbh,"10",0.0,1,6
+482,dbh,"20",281.0,2,6
+483,dbh,"30",109.0,3,6
+484,dbh,"40",54.0,4,6
+485,dbh,"50",33.0,5,6
+486,dbh,"75",27.0,6,6
+487,dbh,"100",8.0,7,6
+488,dbh,"150",3.0,8,6
+489,dbh,"200",0.0,9,6
+490,dbh,"500",0.0,10,6
+491,dbh,"10",0.0,1,7
+492,dbh,"20",970.0,2,7
+493,dbh,"30",291.0,3,7
+494,dbh,"40",115.0,4,7
+495,dbh,"50",44.0,5,7
+496,dbh,"75",43.0,6,7
+497,dbh,"100",7.0,7,7
+498,dbh,"150",3.0,8,7
+499,dbh,"200",0.0,9,7
+500,dbh,"500",0.0,10,7
+501,dbh,"10",0.0,1,8
+502,dbh,"20",692.0,2,8
+503,dbh,"30",210.0,3,8
+504,dbh,"40",61.0,4,8
+505,dbh,"50",38.0,5,8
+506,dbh,"75",22.0,6,8
+507,dbh,"100",7.0,7,8
+508,dbh,"150",4.0,8,8
+509,dbh,"200",1.0,9,8
+510,dbh,"500",1.0,10,8
+511,dbh,"10",0.0,1,9
+512,dbh,"20",770.0,2,9
+513,dbh,"30",168.0,3,9
+514,dbh,"40",72.0,4,9
+515,dbh,"50",27.0,5,9
+516,dbh,"75",23.0,6,9
+518,dbh,"150",5.0,8,9
+519,dbh,"200",0.0,9,9
+520,dbh,"500",0.0,10,9
+521,dbh,"10",34.0,1,10
+522,dbh,"20",519.0,2,10
+523,dbh,"30",184.0,3,10
+524,dbh,"40",88.0,4,10
+525,dbh,"50",40.0,5,10
+526,dbh,"75",38.0,6,10
+527,dbh,"100",13.0,7,10
+528,dbh,"150",3.0,8,10
+529,dbh,"200",0.0,9,10
+530,dbh,"500",0.0,10,10
+531,dbh,"10",16.0,1,11
+532,dbh,"20",985.0,2,11
+533,dbh,"30",189.0,3,11
+534,dbh,"40",48.0,4,11
+535,dbh,"50",14.0,5,11
+536,dbh,"75",10.0,6,11
+537,dbh,"100",0.0,7,11
+538,dbh,"150",0.0,8,11
+539,dbh,"200",0.0,9,11
+540,dbh,"500",0.0,10,11
+541,dbh,"10",6.0,1,12
+542,dbh,"20",715.0,2,12
+543,dbh,"30",178.0,3,12
+544,dbh,"40",57.0,4,12
+545,dbh,"50",28.0,5,12
+546,dbh,"75",22.0,6,12
+547,dbh,"100",2.0,7,12
+548,dbh,"150",1.0,8,12
+549,dbh,"200",0.0,9,12
+550,dbh,"500",0.0,10,12
+551,dbh,"10",0.0,1,13
+552,dbh,"20",589.0,2,13
+553,dbh,"30",103.0,3,13
+554,dbh,"40",50.0,4,13
+555,dbh,"50",31.0,5,13
+556,dbh,"75",25.0,6,13
+557,dbh,"100",6.0,7,13
+558,dbh,"150",2.0,8,13
+559,dbh,"200",0.0,9,13
+560,dbh,"500",1.0,10,13
+561,dbh,"10",0.0,1,14
+562,dbh,"20",871.0,2,14
+563,dbh,"30",247.0,3,14
+564,dbh,"40",96.0,4,14
+565,dbh,"50",47.0,5,14
+566,dbh,"75",33.0,6,14
+567,dbh,"100",6.0,7,14
+568,dbh,"150",4.0,8,14
+569,dbh,"200",2.0,9,14
+570,dbh,"500",1.0,10,14
+571,dbh,"10",1.0,1,15
+572,dbh,"20",1002.0,2,15
+573,dbh,"30",166.0,3,15
+574,dbh,"40",53.0,4,15
+575,dbh,"50",28.0,5,15
+576,dbh,"75",14.0,6,15
+577,dbh,"100",1.0,7,15
+578,dbh,"150",0.0,8,15
+579,dbh,"200",0.0,9,15
+580,dbh,"500",0.0,10,15
+581,dbh,"10",0.0,1,16
+582,dbh,"20",978.0,2,16
+583,dbh,"30",187.0,3,16
+584,dbh,"40",26.0,4,16
+585,dbh,"50",5.0,5,16
+586,dbh,"75",2.0,6,16
+587,dbh,"100",0.0,7,16
+588,dbh,"150",0.0,8,16
+589,dbh,"200",0.0,9,16
+590,dbh,"500",0.0,10,16
+591,dbh,"10",0.0,1,17
+592,dbh,"20",1123.0,2,17
+593,dbh,"30",148.0,3,17
+594,dbh,"40",74.0,4,17
+595,dbh,"50",33.0,5,17
+596,dbh,"75",21.0,6,17
+597,dbh,"100",6.0,7,17
+598,dbh,"150",0.0,8,17
+599,dbh,"200",0.0,9,17
+600,dbh,"500",0.0,10,17
+601,dbh,"10",0.0,1,18
+602,dbh,"20",884.0,2,18
+603,dbh,"30",85.0,3,18
+604,dbh,"40",18.0,4,18
+605,dbh,"50",4.0,5,18
+606,dbh,"75",3.0,6,18
+607,dbh,"100",0.0,7,18
+608,dbh,"150",0.0,8,18
+609,dbh,"200",0.0,9,18
+610,dbh,"500",0.0,10,18
+611,dbh,"10",1.0,1,19
+612,dbh,"20",1154.0,2,19
+613,dbh,"30",232.0,3,19
+614,dbh,"40",63.0,4,19
+615,dbh,"50",27.0,5,19
+616,dbh,"75",11.0,6,19
+617,dbh,"100",1.0,7,19
+618,dbh,"150",1.0,8,19
+619,dbh,"200",0.0,9,19
+620,dbh,"500",0.0,10,19
+621,dbh,"10",0.0,1,20
+622,dbh,"20",766.0,2,20
+623,dbh,"30",207.0,3,20
+624,dbh,"40",67.0,4,20
+625,dbh,"50",17.0,5,20
+626,dbh,"75",8.0,6,20
+627,dbh,"100",0.0,7,20
+628,dbh,"150",0.0,8,20
+629,dbh,"200",0.0,9,20
+630,dbh,"500",0.0,10,20
+631,dbh,"10",0.0,1,21
+632,dbh,"20",1052.0,2,21
+633,dbh,"30",196.0,3,21
+634,dbh,"40",51.0,4,21
+635,dbh,"50",11.0,5,21
+636,dbh,"75",8.0,6,21
+637,dbh,"100",0.0,7,21
+638,dbh,"150",0.0,8,21
+639,dbh,"200",0.0,9,21
+640,dbh,"500",0.0,10,21
+641,dbh,"10",0.0,1,22
+642,dbh,"20",536.0,2,22
+643,dbh,"30",194.0,3,22
+644,dbh,"40",98.0,4,22
+645,dbh,"50",27.0,5,22
+646,dbh,"75",35.0,6,22
+647,dbh,"100",5.0,7,22
+648,dbh,"150",1.0,8,22
+649,dbh,"200",0.0,9,22
+650,dbh,"500",0.0,10,22
+651,dbh,"10",0.0,1,613
+652,dbh,"20",1046.0,2,613
+653,dbh,"30",194.0,3,613
+654,dbh,"40",53.0,4,613
+655,dbh,"50",16.0,5,613
+656,dbh,"75",13.0,6,613
+657,dbh,"100",1.0,7,613
+658,dbh,"150",0.0,8,613
+659,dbh,"200",0.0,9,613
+660,dbh,"500",0.0,10,613

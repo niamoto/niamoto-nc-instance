@@ -1,0 +1,19 @@
+{
+  "export_name": "dwc_occurrence_json",
+  "export_timestamp": "2025-09-30T10:41:06.560355",
+  "exporter": "json_api_exporter",
+  "version": "1.0.0",
+  "statistics": {
+    "duration_seconds": null,
+    "groups_processed": {
+      "taxon": {
+        "total_items": 131,
+        "detail_files": 103,
+        "index_generated": true,
+        "errors": 0
+      }
+    },
+    "total_files_generated": 104,
+    "errors_count": 0
+  }
+}

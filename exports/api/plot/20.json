@@ -1,0 +1,342 @@
+{
+    "plot_id": 20,
+    "general_info": {
+        "name": {
+            "value": "Tiebaghi"
+        },
+        "elevation": {
+            "value": 23,
+            "units": "m"
+        },
+        "rainfall": {
+            "value": 1220,
+            "units": "mm/an"
+        },
+        "holdridge": {
+            "value": 1
+        },
+        "in_um": {
+            "value": false
+        },
+        "nb_families": {
+            "value": 25
+        },
+        "nb_species": {
+            "value": 35
+        },
+        "occurrences_count": {
+            "value": 1065
+        }
+    },
+    "name": {
+        "value": "Tiebaghi"
+    },
+    "elevation": {
+        "value": 23,
+        "units": "m"
+    },
+    "rainfall": {
+        "value": 1220,
+        "units": "mm/an"
+    },
+    "holdridge": {
+        "value": 1
+    },
+    "in_um": {
+        "value": false
+    },
+    "nb_families": {
+        "value": 25
+    },
+    "nb_species": {
+        "value": 35
+    },
+    "occurrences_count": {
+        "value": 1065
+    },
+    "map_panel": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "id": "0",
+                "type": "Feature",
+                "properties": {
+                    "id": 20,
+                    "plot_id": 20,
+                    "locality": "Tiebaghi",
+                    "lft": null,
+                    "rght": null,
+                    "level": null,
+                    "plot_type": null,
+                    "extra_data": null,
+                    "parent_id": null
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        164.22599792,
+                        -20.43131065
+                    ]
+                }
+            }
+        ]
+    },
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "0",
+            "type": "Feature",
+            "properties": {
+                "id": 20,
+                "plot_id": 20,
+                "locality": "Tiebaghi",
+                "lft": null,
+                "rght": null,
+                "level": null,
+                "plot_type": null,
+                "extra_data": null,
+                "parent_id": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    164.22599792,
+                    -20.43131065
+                ]
+            }
+        }
+    ],
+    "top_families": {
+        "tops": [
+            "Cunoniaceae",
+            "Calophyllaceae",
+            "Apocynaceae",
+            "Myrtaceae",
+            "Elaeocarpaceae",
+            "Chrysobalanaceae",
+            "Clusiaceae",
+            "Ebenaceae",
+            "Malvaceae",
+            "Casuarinaceae"
+        ],
+        "counts": [
+            408.0,
+            202.0,
+            141.0,
+            88.0,
+            50.0,
+            37.0,
+            33.0,
+            30.0,
+            16.0,
+            13.0
+        ]
+    },
+    "tops": [
+        "Geissois pruinosa",
+        "Calophyllum caledonicum",
+        "Cerberiopsis candelabra",
+        "Melaleuca quinquenervia",
+        "Elaeocarpus rotundifolius",
+        "Alstonia balansae",
+        "Diospyros macrocarpa",
+        "Garcinia neglecta",
+        "Tabernaemontana cerifera",
+        "Maxwellia lepidota"
+    ],
+    "counts": [
+        1065,
+        82
+    ],
+    "top_species": {
+        "tops": [
+            "Geissois pruinosa",
+            "Calophyllum caledonicum",
+            "Cerberiopsis candelabra",
+            "Melaleuca quinquenervia",
+            "Elaeocarpus rotundifolius",
+            "Alstonia balansae",
+            "Diospyros macrocarpa",
+            "Garcinia neglecta",
+            "Tabernaemontana cerifera",
+            "Maxwellia lepidota"
+        ],
+        "counts": [
+            393.0,
+            202.0,
+            82.0,
+            72.0,
+            50.0,
+            34.0,
+            28.0,
+            26.0,
+            25.0,
+            16.0
+        ]
+    },
+    "dbh_distribution": {
+        "bins": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            75,
+            100,
+            150,
+            200,
+            500
+        ],
+        "counts": [
+            0.0,
+            766.0,
+            207.0,
+            67.0,
+            17.0,
+            8.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "bins": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        75,
+        100,
+        150,
+        200,
+        500
+    ],
+    "strata_distribution": {
+        "labels": [
+            "Sous-Bois",
+            "Sous-Canopée",
+            "Canopée",
+            "Emergent"
+        ],
+        "counts": [
+            25,
+            185,
+            842,
+            13
+        ],
+        "percentages": [
+            2.35,
+            17.37,
+            79.06,
+            1.22
+        ]
+    },
+    "labels": [
+        "Arbres vivants",
+        "Arbres morts"
+    ],
+    "percentages": [
+        92.85,
+        7.15
+    ],
+    "taxonomic_distribution": {
+        "labels": [
+            "Pteridophytes",
+            "Gymnospermae",
+            "Monocotyledonae",
+            "Dicotyledonae"
+        ],
+        "counts": [
+            0,
+            0,
+            0,
+            1065
+        ],
+        "percentages": [
+            0.0,
+            0.0,
+            0.0,
+            100.0
+        ]
+    },
+    "species_level": {
+        "value": "0.9756",
+        "units": "",
+        "format": "number"
+    },
+    "value": "171.554415158782",
+    "units": "t/ha",
+    "format": "number",
+    "living_dead_distribution": {
+        "labels": [
+            "Arbres vivants",
+            "Arbres morts"
+        ],
+        "counts": [
+            1065,
+            82
+        ],
+        "percentages": [
+            92.85,
+            7.15
+        ],
+        "arbres_vivants": {
+            "value": 1065,
+            "units": ""
+        },
+        "arbres_morts": {
+            "value": 82,
+            "units": ""
+        }
+    },
+    "arbres_vivants": {
+        "value": 1065,
+        "units": ""
+    },
+    "arbres_morts": {
+        "value": 82,
+        "units": ""
+    },
+    "height": {
+        "value": "11.6",
+        "units": "m",
+        "max_value": 40.0
+    },
+    "max_value": 800.0,
+    "wood_density": {
+        "value": "0.6871135938136405",
+        "units": "g/cm3",
+        "max_value": 1.2
+    },
+    "basal_area": {
+        "value": "32.6",
+        "units": "m²/ha",
+        "max_value": 100.0
+    },
+    "richness": {
+        "value": 35,
+        "units": "Nombre d'espèces/ha",
+        "max_value": 130.0
+    },
+    "shannon": {
+        "value": "2.2",
+        "units": "",
+        "max_value": 5.0
+    },
+    "pielou": {
+        "value": "0.62",
+        "units": "",
+        "max_value": 1.0
+    },
+    "simpson": {
+        "value": "0.8",
+        "units": "",
+        "max_value": 1.0
+    },
+    "biomass": {
+        "value": "171.554415158782",
+        "units": "t/ha",
+        "max_value": 800.0
+    }
+}

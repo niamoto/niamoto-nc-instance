@@ -1,0 +1,31 @@
+[
+  {
+    "type": "Occurrence",
+    "language": "fr",
+    "license": "CC-BY-4.0",
+    "rightsHolder": "Niamoto - Nouvelle-Calédonie",
+    "datasetName": "Niamoto Export - Nouvelle-Calédonie Flore",
+    "basisOfRecord": "HumanObservation",
+    "occurrenceID": "niaocc_145977",
+    "individualCount": "1",
+    "occurrenceStatus": "present",
+    "eventID": "niaevt_145977",
+    "country": "New Caledonia",
+    "countryCode": "NC",
+    "minimumElevationInMeters": 190.0,
+    "maximumElevationInMeters": 190.0,
+    "decimalLatitude": -21.204996520541563,
+    "decimalLongitude": 165.55087789361664,
+    "geodeticDatum": "WGS84",
+    "identificationID": "niaid_unknown_0",
+    "taxonID": 1185,
+    "scientificName": "Phyllanthus acidus (L.) Steels",
+    "kingdom": "Plantae",
+    "family": "Phyllanthaceae",
+    "genus": "Phyllanthus",
+    "specificEpithet": "acidus",
+    "taxonRank": "species",
+    "scientificNameAuthorship": "Phyllanthus acidus (L.) Steels",
+    "habitat": "Annual rainfall: 1740.0mm; Substrate: non-ultramafic; Habitat: non-forest"
+  }
+]

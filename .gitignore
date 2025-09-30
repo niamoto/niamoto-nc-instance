@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Netlify (si vous n'en avez pas besoin en production)
+.netlify/
+
+# Optionnel : ignorer les exports si trop volumineux
+# exports/

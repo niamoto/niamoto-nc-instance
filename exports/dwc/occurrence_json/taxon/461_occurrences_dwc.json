@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Occurrence",
+    "language": "fr",
+    "license": "CC-BY-4.0",
+    "rightsHolder": "Niamoto - Nouvelle-Calédonie",
+    "datasetName": "Niamoto Export - Nouvelle-Calédonie Flore",
+    "basisOfRecord": "HumanObservation",
+    "occurrenceID": "niaocc_15614",
+    "individualCount": "1",
+    "occurrenceStatus": "present",
+    "eventID": "niaevt_15614",
+    "month": 10,
+    "country": "New Caledonia",
+    "countryCode": "NC",
+    "minimumElevationInMeters": 2.0,
+    "maximumElevationInMeters": 2.0,
+    "decimalLatitude": -22.6719109,
+    "decimalLongitude": 167.4944782,
+    "geodeticDatum": "WGS84",
+    "identificationID": "niaid_unknown_0",
+    "taxonID": 461,
+    "scientificName": "Araucaria cunninghamii Aiton",
+    "kingdom": "Plantae",
+    "family": "Araucariaceae",
+    "genus": "Araucaria",
+    "specificEpithet": "cunninghamii",
+    "taxonRank": "species",
+    "scientificNameAuthorship": "Araucaria cunninghamii Aiton",
+    "habitat": "Annual rainfall: 1110.0mm; Substrate: non-ultramafic; Habitat: non-forest"
+  }
+]

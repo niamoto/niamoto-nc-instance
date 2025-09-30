@@ -1,0 +1,342 @@
+{
+    "plot_id": 6,
+    "general_info": {
+        "name": {
+            "value": "Calcaires de Koumac"
+        },
+        "elevation": {
+            "value": 42,
+            "units": "m"
+        },
+        "rainfall": {
+            "value": 1570,
+            "units": "mm/an"
+        },
+        "holdridge": {
+            "value": 2
+        },
+        "in_um": {
+            "value": false
+        },
+        "nb_families": {
+            "value": 26
+        },
+        "nb_species": {
+            "value": 32
+        },
+        "occurrences_count": {
+            "value": 515
+        }
+    },
+    "name": {
+        "value": "Calcaires de Koumac"
+    },
+    "elevation": {
+        "value": 42,
+        "units": "m"
+    },
+    "rainfall": {
+        "value": 1570,
+        "units": "mm/an"
+    },
+    "holdridge": {
+        "value": 2
+    },
+    "in_um": {
+        "value": false
+    },
+    "nb_families": {
+        "value": 26
+    },
+    "nb_species": {
+        "value": 32
+    },
+    "occurrences_count": {
+        "value": 515
+    },
+    "map_panel": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "id": "0",
+                "type": "Feature",
+                "properties": {
+                    "id": 6,
+                    "plot_id": 6,
+                    "locality": "Calcaires de Koumac",
+                    "lft": null,
+                    "rght": null,
+                    "level": null,
+                    "plot_type": null,
+                    "extra_data": null,
+                    "parent_id": null
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        164.35525513,
+                        -20.53927231
+                    ]
+                }
+            }
+        ]
+    },
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "0",
+            "type": "Feature",
+            "properties": {
+                "id": 6,
+                "plot_id": 6,
+                "locality": "Calcaires de Koumac",
+                "lft": null,
+                "rght": null,
+                "level": null,
+                "plot_type": null,
+                "extra_data": null,
+                "parent_id": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    164.35525513,
+                    -20.53927231
+                ]
+            }
+        }
+    ],
+    "top_families": {
+        "tops": [
+            "Ebenaceae",
+            "Meliaceae",
+            "Anacardiaceae",
+            "Annonaceae",
+            "Cannabaceae",
+            "Hernandiaceae",
+            "Apocynaceae",
+            "Dilleniaceae",
+            "Euphorbiaceae",
+            "Phyllanthaceae"
+        ],
+        "counts": [
+            126.0,
+            114.0,
+            56.0,
+            46.0,
+            39.0,
+            29.0,
+            18.0,
+            15.0,
+            11.0,
+            9.0
+        ]
+    },
+    "tops": [
+        "Diospyros fasciculosa",
+        "Aglaia elaeagnoidea",
+        "Huberantha nitidissima",
+        "Celtis balansae",
+        "Semecarpus atra",
+        "Gyrocarpus americanus",
+        "Tabernaemontana cerifera",
+        "Pleiogynium timoriense",
+        "Tetracera billardierei",
+        "Olea paniculata"
+    ],
+    "counts": [
+        515,
+        31
+    ],
+    "top_species": {
+        "tops": [
+            "Diospyros fasciculosa",
+            "Aglaia elaeagnoidea",
+            "Huberantha nitidissima",
+            "Celtis balansae",
+            "Semecarpus atra",
+            "Gyrocarpus americanus",
+            "Tabernaemontana cerifera",
+            "Pleiogynium timoriense",
+            "Tetracera billardierei",
+            "Olea paniculata"
+        ],
+        "counts": [
+            126.0,
+            102.0,
+            46.0,
+            39.0,
+            39.0,
+            29.0,
+            18.0,
+            16.0,
+            15.0,
+            9.0
+        ]
+    },
+    "dbh_distribution": {
+        "bins": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            75,
+            100,
+            150,
+            200,
+            500
+        ],
+        "counts": [
+            0.0,
+            281.0,
+            109.0,
+            54.0,
+            33.0,
+            27.0,
+            8.0,
+            3.0,
+            0.0,
+            0.0
+        ]
+    },
+    "bins": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        75,
+        100,
+        150,
+        200,
+        500
+    ],
+    "strata_distribution": {
+        "labels": [
+            "Sous-Bois",
+            "Sous-Canopée",
+            "Canopée",
+            "Emergent"
+        ],
+        "counts": [
+            64,
+            163,
+            281,
+            7
+        ],
+        "percentages": [
+            12.43,
+            31.65,
+            54.56,
+            1.36
+        ]
+    },
+    "labels": [
+        "Arbres vivants",
+        "Arbres morts"
+    ],
+    "percentages": [
+        94.32,
+        5.68
+    ],
+    "taxonomic_distribution": {
+        "labels": [
+            "Pteridophytes",
+            "Gymnospermae",
+            "Monocotyledonae",
+            "Dicotyledonae"
+        ],
+        "counts": [
+            0,
+            0,
+            0,
+            511
+        ],
+        "percentages": [
+            0.0,
+            0.0,
+            0.0,
+            100.0
+        ]
+    },
+    "species_level": {
+        "value": "0.9845",
+        "units": "",
+        "format": "number"
+    },
+    "value": "237.31230347239",
+    "units": "t/ha",
+    "format": "number",
+    "living_dead_distribution": {
+        "labels": [
+            "Arbres vivants",
+            "Arbres morts"
+        ],
+        "counts": [
+            515,
+            31
+        ],
+        "percentages": [
+            94.32,
+            5.68
+        ],
+        "arbres_vivants": {
+            "value": 515,
+            "units": ""
+        },
+        "arbres_morts": {
+            "value": 31,
+            "units": ""
+        }
+    },
+    "arbres_vivants": {
+        "value": 515,
+        "units": ""
+    },
+    "arbres_morts": {
+        "value": 31,
+        "units": ""
+    },
+    "height": {
+        "value": "15.6",
+        "units": "m",
+        "max_value": 40.0
+    },
+    "max_value": 800.0,
+    "wood_density": {
+        "value": "0.6811192580786862",
+        "units": "g/cm3",
+        "max_value": 1.2
+    },
+    "basal_area": {
+        "value": "34.5",
+        "units": "m²/ha",
+        "max_value": 100.0
+    },
+    "richness": {
+        "value": 32,
+        "units": "Nombre d'espèces/ha",
+        "max_value": 130.0
+    },
+    "shannon": {
+        "value": "2.5",
+        "units": "",
+        "max_value": 5.0
+    },
+    "pielou": {
+        "value": "0.72",
+        "units": "",
+        "max_value": 1.0
+    },
+    "simpson": {
+        "value": "0.87",
+        "units": "",
+        "max_value": 1.0
+    },
+    "biomass": {
+        "value": "237.31230347239",
+        "units": "t/ha",
+        "max_value": 800.0
+    }
+}

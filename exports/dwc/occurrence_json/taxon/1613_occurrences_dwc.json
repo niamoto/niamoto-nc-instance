@@ -1,0 +1,33 @@
+[
+  {
+    "type": "Occurrence",
+    "language": "fr",
+    "license": "CC-BY-4.0",
+    "rightsHolder": "Niamoto - Nouvelle-Calédonie",
+    "datasetName": "Niamoto Export - Nouvelle-Calédonie Flore",
+    "basisOfRecord": "HumanObservation",
+    "occurrenceID": "niaocc_33867",
+    "individualCount": "1",
+    "occurrenceStatus": "present",
+    "eventID": "niaevt_33867",
+    "month": 4,
+    "country": "New Caledonia",
+    "countryCode": "NC",
+    "decimalLatitude": -19.749775,
+    "decimalLongitude": 163.6778611111,
+    "geodeticDatum": "WGS84",
+    "identificationID": "niaid_unknown_0",
+    "taxonID": 1613,
+    "scientificName": "Cerberiopsis candelabra var. vexillaria (Däniker) Boiteau",
+    "kingdom": "Plantae",
+    "family": "Apocynaceae",
+    "genus": "Cerberiopsis",
+    "specificEpithet": "candelabra",
+    "infraspecificEpithet": "vexillaria",
+    "taxonRank": "infra",
+    "scientificNameAuthorship": "Cerberiopsis candelabra var. vexillaria (Däniker) Boiteau",
+    "dynamicProperties": "{\"height\": {\"value\": 3.0, \"unit\": \"m\"}}",
+    "reproductiveCondition": "flowering; fruiting",
+    "habitat": "Substrate: non-ultramafic; Habitat: non-forest"
+  }
+]

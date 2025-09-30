@@ -1,0 +1,33 @@
+[
+  {
+    "type": "Occurrence",
+    "language": "fr",
+    "license": "CC-BY-4.0",
+    "rightsHolder": "Niamoto - Nouvelle-Calédonie",
+    "datasetName": "Niamoto Export - Nouvelle-Calédonie Flore",
+    "basisOfRecord": "HumanObservation",
+    "occurrenceID": "niaocc_49003",
+    "individualCount": "1",
+    "occurrenceStatus": "present",
+    "eventID": "niaevt_49003",
+    "month": 5,
+    "country": "New Caledonia",
+    "countryCode": "NC",
+    "minimumElevationInMeters": 298.0,
+    "maximumElevationInMeters": 298.0,
+    "decimalLatitude": -21.19093132,
+    "decimalLongitude": 165.28031921,
+    "geodeticDatum": "WGS84",
+    "identificationID": "niaid_unknown_0",
+    "taxonID": 672,
+    "scientificName": "Cryptocarya {munzinger_5178} Munzinger & McPherson",
+    "kingdom": "Plantae",
+    "family": "Lauraceae",
+    "genus": "Cryptocarya",
+    "specificEpithet": "{munzinger_5178}",
+    "taxonRank": "species",
+    "scientificNameAuthorship": "Cryptocarya {munzinger_5178} Munzinger & McPherson",
+    "dynamicProperties": "{\"diameterAtBreastHeight\": {\"value\": 6.9, \"unit\": \"cm\"}}",
+    "habitat": "Holdridge life zone: Zone 3.0; Annual rainfall: 2830.0mm; Substrate: non-ultramafic; Habitat: non-forest"
+  }
+]

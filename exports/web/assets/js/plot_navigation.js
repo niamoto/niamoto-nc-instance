@@ -1,0 +1,1 @@
+const plotNavigationData = [{"parent_id":null,"id":6,"locality":"Calcaires de Koumac"},{"parent_id":null,"id":9,"locality":"For\u00eat Plate P09"},{"parent_id":null,"id":10,"locality":"For\u00eat Plate P12"},{"parent_id":null,"id":11,"locality":"For\u00eat Plate P17"},{"parent_id":null,"id":20,"locality":"Tiebaghi"}];

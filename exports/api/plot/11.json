@@ -1,0 +1,342 @@
+{
+    "plot_id": 11,
+    "general_info": {
+        "name": {
+            "value": "Forêt Plate P17"
+        },
+        "elevation": {
+            "value": 447,
+            "units": "m"
+        },
+        "rainfall": {
+            "value": 1760,
+            "units": "mm/an"
+        },
+        "holdridge": {
+            "value": 2
+        },
+        "in_um": {
+            "value": false
+        },
+        "nb_families": {
+            "value": 32
+        },
+        "nb_species": {
+            "value": 63
+        },
+        "occurrences_count": {
+            "value": 1262
+        }
+    },
+    "name": {
+        "value": "Forêt Plate P17"
+    },
+    "elevation": {
+        "value": 447,
+        "units": "m"
+    },
+    "rainfall": {
+        "value": 1760,
+        "units": "mm/an"
+    },
+    "holdridge": {
+        "value": 2
+    },
+    "in_um": {
+        "value": false
+    },
+    "nb_families": {
+        "value": 32
+    },
+    "nb_species": {
+        "value": 63
+    },
+    "occurrences_count": {
+        "value": 1262
+    },
+    "map_panel": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "id": "0",
+                "type": "Feature",
+                "properties": {
+                    "id": 11,
+                    "plot_id": 11,
+                    "locality": "Forêt Plate P17",
+                    "lft": null,
+                    "rght": null,
+                    "level": null,
+                    "plot_type": null,
+                    "extra_data": null,
+                    "parent_id": null
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        165.10707092,
+                        -21.12267685
+                    ]
+                }
+            }
+        ]
+    },
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "0",
+            "type": "Feature",
+            "properties": {
+                "id": 11,
+                "plot_id": 11,
+                "locality": "Forêt Plate P17",
+                "lft": null,
+                "rght": null,
+                "level": null,
+                "plot_type": null,
+                "extra_data": null,
+                "parent_id": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    165.10707092,
+                    -21.12267685
+                ]
+            }
+        }
+    ],
+    "top_families": {
+        "tops": [
+            "Rutaceae",
+            "Sapindaceae",
+            "Salicaceae",
+            "Primulaceae",
+            "Ebenaceae",
+            "Clusiaceae",
+            "Anacardiaceae",
+            "Apocynaceae",
+            "Euphorbiaceae",
+            "Lauraceae"
+        ],
+        "counts": [
+            478.0,
+            156.0,
+            135.0,
+            100.0,
+            86.0,
+            67.0,
+            45.0,
+            27.0,
+            26.0,
+            26.0
+        ]
+    },
+    "tops": [
+        "Geijera balansae",
+        "Xylosma vincentii",
+        "Diospyros fasciculosa",
+        "Garcinia densiflora",
+        "Lepidocupania arcuata",
+        "Sarcomelicope follicularis",
+        "Lepidocupania globosa",
+        "Tabernaemontana cerifera",
+        "Acronychia laevis",
+        "Semecarpus atra"
+    ],
+    "counts": [
+        1262,
+        82
+    ],
+    "top_species": {
+        "tops": [
+            "Geijera balansae",
+            "Xylosma vincentii",
+            "Diospyros fasciculosa",
+            "Garcinia densiflora",
+            "Lepidocupania arcuata",
+            "Sarcomelicope follicularis",
+            "Lepidocupania globosa",
+            "Tabernaemontana cerifera",
+            "Acronychia laevis",
+            "Semecarpus atra"
+        ],
+        "counts": [
+            411.0,
+            131.0,
+            73.0,
+            56.0,
+            48.0,
+            38.0,
+            35.0,
+            27.0,
+            27.0,
+            26.0
+        ]
+    },
+    "dbh_distribution": {
+        "bins": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            75,
+            100,
+            150,
+            200,
+            500
+        ],
+        "counts": [
+            16.0,
+            985.0,
+            189.0,
+            48.0,
+            14.0,
+            10.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "bins": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        75,
+        100,
+        150,
+        200,
+        500
+    ],
+    "strata_distribution": {
+        "labels": [
+            "Sous-Bois",
+            "Sous-Canopée",
+            "Canopée",
+            "Emergent"
+        ],
+        "counts": [
+            41,
+            135,
+            1070,
+            16
+        ],
+        "percentages": [
+            3.25,
+            10.7,
+            84.79,
+            1.27
+        ]
+    },
+    "labels": [
+        "Arbres vivants",
+        "Arbres morts"
+    ],
+    "percentages": [
+        93.9,
+        6.1
+    ],
+    "taxonomic_distribution": {
+        "labels": [
+            "Pteridophytes",
+            "Gymnospermae",
+            "Monocotyledonae",
+            "Dicotyledonae"
+        ],
+        "counts": [
+            0,
+            1,
+            0,
+            1261
+        ],
+        "percentages": [
+            0.0,
+            0.08,
+            0.0,
+            99.92
+        ]
+    },
+    "species_level": {
+        "value": "0.9105",
+        "units": "",
+        "format": "number"
+    },
+    "value": "180.05767290577",
+    "units": "t/ha",
+    "format": "number",
+    "living_dead_distribution": {
+        "labels": [
+            "Arbres vivants",
+            "Arbres morts"
+        ],
+        "counts": [
+            1262,
+            82
+        ],
+        "percentages": [
+            93.9,
+            6.1
+        ],
+        "arbres_vivants": {
+            "value": 1262,
+            "units": ""
+        },
+        "arbres_morts": {
+            "value": 82,
+            "units": ""
+        }
+    },
+    "arbres_vivants": {
+        "value": 1262,
+        "units": ""
+    },
+    "arbres_morts": {
+        "value": 82,
+        "units": ""
+    },
+    "height": {
+        "value": "11.4",
+        "units": "m",
+        "max_value": 40.0
+    },
+    "max_value": 800.0,
+    "wood_density": {
+        "value": "0.7489357059517338",
+        "units": "g/cm3",
+        "max_value": 1.2
+    },
+    "basal_area": {
+        "value": "32.5",
+        "units": "m²/ha",
+        "max_value": 100.0
+    },
+    "richness": {
+        "value": 63,
+        "units": "Nombre d'espèces/ha",
+        "max_value": 130.0
+    },
+    "shannon": {
+        "value": "2.74",
+        "units": "",
+        "max_value": 5.0
+    },
+    "pielou": {
+        "value": "0.66",
+        "units": "",
+        "max_value": 1.0
+    },
+    "simpson": {
+        "value": "0.85",
+        "units": "",
+        "max_value": 1.0
+    },
+    "biomass": {
+        "value": "180.05767290577",
+        "units": "t/ha",
+        "max_value": 800.0
+    }
+}

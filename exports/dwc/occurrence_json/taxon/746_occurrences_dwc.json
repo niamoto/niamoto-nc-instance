@@ -1,0 +1,33 @@
+[
+  {
+    "type": "Occurrence",
+    "language": "fr",
+    "license": "CC-BY-4.0",
+    "rightsHolder": "Niamoto - Nouvelle-Calédonie",
+    "datasetName": "Niamoto Export - Nouvelle-Calédonie Flore",
+    "basisOfRecord": "HumanObservation",
+    "occurrenceID": "niaocc_62351",
+    "individualCount": "1",
+    "occurrenceStatus": "present",
+    "eventID": "niaevt_62351",
+    "month": 5,
+    "country": "New Caledonia",
+    "countryCode": "NC",
+    "minimumElevationInMeters": 45.0,
+    "maximumElevationInMeters": 45.0,
+    "decimalLatitude": -22.2693066,
+    "decimalLongitude": 166.4476949,
+    "geodeticDatum": "WGS84",
+    "identificationID": "niaid_unknown_0",
+    "taxonID": 746,
+    "scientificName": "Diospyros digyna Jacqu.",
+    "kingdom": "Plantae",
+    "family": "Ebenaceae",
+    "genus": "Diospyros",
+    "specificEpithet": "digyna",
+    "taxonRank": "species",
+    "scientificNameAuthorship": "Diospyros digyna Jacqu.",
+    "reproductiveCondition": "fruiting",
+    "habitat": "Holdridge life zone: Zone 1.0; Annual rainfall: 950.0mm; Substrate: non-ultramafic; Habitat: non-forest"
+  }
+]
