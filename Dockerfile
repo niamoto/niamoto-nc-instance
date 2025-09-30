@@ -8,6 +8,7 @@ RUN git clone --depth 1 --branch feat/pipeline-editor-unified https://github.com
 
 # Build React frontend
 WORKDIR /build/src/niamoto/gui/ui
+RUN ls -la && pwd
 RUN npm install
 RUN npm run build
 
