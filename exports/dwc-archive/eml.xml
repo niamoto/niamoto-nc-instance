@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd" packageId="niamoto-20251002" system="http://niamoto.nc" scope="system" xml:lang="fr">
+  <dataset>
+    <title>Niamoto - Flora of New Caledonia</title>
+    <creator>
+      <individualName>Niamoto Project</individualName>
+      <electronicMailAddress>contact@niamoto.nc</electronicMailAddress>
+    </creator>
+    <publisher>Niamoto - Nouvelle-Calédonie</publisher>
+    <pubDate>2025-10-02</pubDate>
+    <language>fr</language>
+    <abstract>
+      <para>Occurrence records of vascular plants from New Caledonia collected and maintained by the Niamoto project. This dataset includes detailed occurrence data with taxonomic information, geographic coordinates, habitat data, and trait measurements.</para>
+    </abstract>
+    <intellectualRights>
+      <para>CC-BY-4.0</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>New Caledonia</geographicDescription>
+      </geographicCoverage>
+    </coverage>
+    <contact>
+      <individualName>Niamoto Project</individualName>
+      <electronicMailAddress>contact@niamoto.nc</electronicMailAddress>
+    </contact>
+  </dataset>
+</eml:eml>

@@ -1595,4 +1595,176 @@ exports:
               params:
                 endemic_field: "@taxon.general_info.endemic.value"
 
-# --------------------- Fin Groupe: Taxon (DwC) -------------------------
+# --------------------- Fin Groupe: Taxon (DwC JSON) -------------------------
+
+  # ------------------------------------------------------------
+  # Cible 4: Darwin Core Archive Standard (GBIF-compatible)
+  # ------------------------------------------------------------
+  - name: dwc_archive_standard
+    enabled: true
+    exporter: dwc_archive_exporter # Plugin générant l'archive DwC-A standard
+
+    params:
+      output_dir: "exports/dwc-archive"
+      archive_name: "niamoto-dwc-archive.zip"
+      delimiter: "\t"  # Tabulation (standard Darwin Core Archive)
+      compress_csv: false  # true pour compresser occurrence.csv en .gz
+      encoding: "utf-8"
+
+      # Métadonnées du dataset (pour eml.xml)
+      metadata:
+        title: "Niamoto - Flora of New Caledonia"
+        description: "Occurrence records of vascular plants from New Caledonia collected and maintained by the Niamoto project. This dataset includes detailed occurrence data with taxonomic information, geographic coordinates, habitat data, and trait measurements."
+        publisher: "Niamoto - Nouvelle-Calédonie"
+        contact_name: "Niamoto Project"
+        contact_email: "contact@niamoto.nc"
+        rights: "CC-BY-4.0"
+        citation: "Niamoto Project. Niamoto - Flora of New Caledonia. Occurrence dataset accessed via Niamoto platform."
+        homepage: "https://niamoto.nc"
+        geographic_coverage: "New Caledonia"
+        language: "fr"
+
+    groups:
+      # --- Configuration DwC Archive pour le groupe Taxon ---
+      - group_by: taxon
+        # Utilise le même transformer que pour les JSON individuels
+        transformer_plugin: niamoto_to_dwc_occurrence
+
+        # Paramètres pour le transformateur (mapping Niamoto -> Darwin Core)
+        transformer_params:
+          # Clé dans les données du taxon contenant la liste des occurrences brutes
+          occurrence_list_source: "occurrences"
+
+          # Mapping des champs Niamoto vers les termes Darwin Core Occurrence
+          # @source fait référence aux données de chaque occurrence dans la base
+          # @taxon fait référence aux données globales du taxon
+          mapping:
+            # --- Record-Level ---
+            type: "Occurrence"
+            language: "fr"
+            license: "CC-BY-4.0"
+            rightsHolder: "Niamoto - Nouvelle-Calédonie"
+            datasetName: "Niamoto Export - Nouvelle-Calédonie Flore"
+            basisOfRecord: "HumanObservation"
+
+            # --- Occurrence ---
+            occurrenceID:
+              generator: unique_occurrence_id
+              params:
+                prefix: "niaocc_"
+                source_field: "@source.id"
+            individualCount: "1"
+            occurrenceStatus: "present"
+
+            # --- Event ---
+            eventID:
+              generator: unique_event_id
+              params:
+                prefix: "niaevt_"
+                source_field: "@source.id"
+            eventDate:
+              generator: format_event_date
+              params:
+                source_field: "@source.month_obs"
+            year:
+              generator: extract_year
+              params:
+                source_field: "@source.month_obs"
+            month:
+              generator: extract_month
+              params:
+                source_field: "@source.month_obs"
+
+            # --- Location ---
+            country: "New Caledonia"
+            countryCode: "NC"
+            stateProvince: "@source.province"
+            minimumElevationInMeters: "@source.elevation"
+            maximumElevationInMeters: "@source.elevation"
+            decimalLatitude:
+              generator: format_coordinates
+              params:
+                source_field: "@source.geo_pt"
+                type: "latitude"
+            decimalLongitude:
+              generator: format_coordinates
+              params:
+                source_field: "@source.geo_pt"
+                type: "longitude"
+            geodeticDatum: "WGS84"
+
+            # --- Identification ---
+            identificationID:
+              generator: unique_identification_id
+              params:
+                prefix: "niaid_"
+                source_field: "@source.id"
+
+            # --- Taxon --- (Depuis la base de données et table taxon_ref)
+            taxonID: "@taxon.taxon_id"
+            scientificName: "@source.taxonref"
+            kingdom: "Plantae"
+            family: "@source.family"
+            genus: "@source.genus"
+            specificEpithet:
+              generator: extract_specific_epithet
+              params:
+                source_field: "@source.taxonref"
+            infraspecificEpithet:
+              generator: extract_infraspecific_epithet
+              params:
+                source_field: "@source.taxonref"
+            taxonRank: "@taxon.general_info.rank.value"
+            scientificNameAuthorship: "@source.taxonref"
+
+            # --- Measurements ---
+            # Diamètre à hauteur de poitrine
+            dynamicProperties:
+              generator: format_measurements
+              params:
+                measurements:
+                  - field: "@source.dbh"
+                    name: "diameterAtBreastHeight"
+                    unit: "cm"
+                  - field: "@source.height"
+                    name: "height"
+                    unit: "m"
+                  - field: "@source.wood_density"
+                    name: "woodDensity"
+                    unit: "g/cm³"
+                  - field: "@source.bark_thickness"
+                    name: "barkThickness"
+                    unit: "mm"
+                  - field: "@source.leaf_area"
+                    name: "leafArea"
+                    unit: "cm²"
+                  - field: "@source.leaf_thickness"
+                    name: "leafThickness"
+                    unit: "µm"
+                  - field: "@source.leaf_sla"
+                    name: "specificLeafArea"
+                    unit: "m²/kg"
+
+            # --- Phénologie ---
+            reproductiveCondition:
+              generator: format_phenology
+              params:
+                flower_field: "@source.flower"
+                fruit_field: "@source.fruit"
+
+            # --- Habitat ---
+            habitat:
+              generator: format_habitat
+              params:
+                holdridge_field: "@source.holdridge"
+                rainfall_field: "@source.rainfall"
+                substrate_field: "@source.in_um"
+                forest_field: "@source.in_forest"
+
+            # --- Establishment means ---
+            establishmentMeans:
+              generator: map_establishment_means
+              params:
+                endemic_field: "@taxon.general_info.endemic.value"
+
+# --------------------- Fin Groupe: Taxon (DwC Archive) -------------------------

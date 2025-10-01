@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<archive xmlns="http://rs.tdwg.org/dwc/text/" metadata="eml.xml">
+  <core encoding="utf-8" fieldsTerminatedBy="&#9;" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Occurrence">
+    <files>
+      <location>occurrence.csv</location>
+    </files>
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/basisOfRecord"/>
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/country"/>
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/countryCode"/>
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/datasetName"/>
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/decimalLatitude"/>
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/decimalLongitude"/>
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/dynamicProperties"/>
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/eventID"/>
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/family"/>
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/genus"/>
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/geodeticDatum"/>
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/habitat"/>
+    <field index="12" term="http://rs.tdwg.org/dwc/terms/identificationID"/>
+    <field index="13" term="http://rs.tdwg.org/dwc/terms/individualCount"/>
+    <field index="14" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet"/>
+    <field index="15" term="http://rs.tdwg.org/dwc/terms/kingdom"/>
+    <field index="16" term="http://rs.tdwg.org/dwc/terms/language"/>
+    <field index="17" term="http://rs.tdwg.org/dwc/terms/license"/>
+    <field index="18" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters"/>
+    <field index="19" term="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters"/>
+    <field index="20" term="http://rs.tdwg.org/dwc/terms/month"/>
+    <field index="21" term="http://rs.tdwg.org/dwc/terms/occurrenceID"/>
+    <field index="22" term="http://rs.tdwg.org/dwc/terms/occurrenceStatus"/>
+    <field index="23" term="http://rs.tdwg.org/dwc/terms/reproductiveCondition"/>
+    <field index="24" term="http://rs.tdwg.org/dwc/terms/rightsHolder"/>
+    <field index="25" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    <field index="26" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"/>
+    <field index="27" term="http://rs.tdwg.org/dwc/terms/specificEpithet"/>
+    <field index="28" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+    <field index="29" term="http://rs.tdwg.org/dwc/terms/taxonRank"/>
+    <field index="30" term="http://rs.tdwg.org/dwc/terms/type"/>
+  </core>
+</archive>
