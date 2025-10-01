@@ -1,1 +1,1 @@
-const shapeNavigationData = [{"name":"Substrats","id":1,"level":0,"parent_id":null,"lft":1,"shape_type":"type","rght":4},{"name":"Ultramafique","id":2,"level":1,"parent_id":1,"lft":2,"shape_type":"shape","rght":3}];
+const shapeNavigationData = [{"shape_type":"type","name":"Substrats","parent_id":null,"lft":1,"level":0,"rght":4,"id":1},{"shape_type":"shape","name":"Ultramafique","parent_id":1,"lft":2,"level":1,"rght":3,"id":2}];
