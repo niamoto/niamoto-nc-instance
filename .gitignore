@@ -13,6 +13,6 @@ Thumbs.db
 
 # Netlify (si vous n'en avez pas besoin en production)
 .netlify/
-
+.wrangler/
 # Optionnel : ignorer les exports si trop volumineux
-# exports/
+exports/
